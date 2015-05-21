@@ -1,3 +1,5 @@
+// notes from this video: https://www.youtube.com/watch?v=S8Pb5tphPoE
+
 
 // creates an array called x with 3 values, all undefined
 var x = Array.apply(0, Array(3));
