@@ -1,7 +1,18 @@
 
-// creates an array with 3 values [1,2,3]
+// creates an array called x with 3 values, all undefined
+var x = Array.apply(0, Array(3));
+
+// same as Math.max(14,3,77);
+Math.max.apply(Math, [14,3,77]);
+
+// creates an array with 3 values ([1,2,3]) by adding 1 to the index at each point in the array and replacing undefined with that sum
 Array.apply(0, Array(3)).map(function(v,i){
 	return i + 1;
+});
+
+// creates an array with the squared values of 1, 2, and 3
+Array.apple(0, Array(3)).map(function(v,i){
+	return (y + 1) * (y + 1);
 });
 
 // creates a string with the 26 letters of the alphabet
